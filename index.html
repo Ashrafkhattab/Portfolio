@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:wght@400;500;700&family=Cairo:wght@700&family=Jomhuria&family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Fokir</title>
+  </head>
+
+  <body>
+    <div id="home">
+      <div class="navbar">
+        <div class="logo"><a href="index.html">Fokir</a></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+      <div class="layer"></div>
+      <div class="caption">
+        <h3>Hello i'm</h3>
+        <h1>ASHRAF KHATTAB</h1>
+        <h4>Professional Web <span> Developer </span></h4>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="imgbag">
+          <div class="image">
+            <img
+              src="images/6429f23a-cdbc-4edd-8795-2f4e71240f37.jfif"
+              alt="profile photo"
+            />
+            <div class="social">
+              <a href="#"> <i class="fa-brands fa-facebook-f"></i> </a>
+              <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+              <a href="#"> <i class="fa-solid fa-g"></i> </a>
+              <a href="#"> <i class="fa-brands fa-github"></i> </a>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <h2>HELLO,</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <ul>
+            <li>Name: <span>Ashraf Khattab</span></li>
+            <li>Job Title: <span> Full Stack Developer </span></li>
+            <li>Age: <span>25 Years</span></li>
+            <li>Location: <span>Shebin ElKoom, Egypt</span></li>
+            <li>Freelance: <span>Available</span></li>
+            <li>E-mail: <span> ashrafkhattab516@gmail.com</span></li>
+          </ul>
+          <div class="clear-fix"></div>
+          <button class="btn1 cv">
+            <a href="#"> Download CV <i class="fa-solid fa-download"></i> </a>
+          </button>
+          <button class="btn1 hire">
+            <a href="#">Hire Me <i class="fa-solid fa-paper-plane"></i> </a>
+          </button>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <div class="servbag">
+          <h2>Our Services</h2>
+          <div class="uiux">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+          <div class="uiux">
+            <i class="fa-solid fa-code"></i>
+            <h3>APP DEVELOPMENT</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+          <div class="uiux">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>PRODUCT DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+          <div class="uiux">
+            <i class="fa-sharp fa-solid fa-gears"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h2>Our Portfolio</h2>
+        <div class="btns">
+          <button class="btnport" onclick="filterselection('all')">ALL</button>
+          <button class="btnport" onclick="filterSelection('.cat1')">
+            GRAPHIC
+          </button>
+          <button class="btnport" onclick="filterSelection('.cat2')">
+            WEB DESIGN
+          </button>
+          <button class="btnport" onclick="filterSelection('.cat3')">
+            BRANDING
+          </button>
+        </div>
+        <div class="portbag">
+          <div class="port cat2 cat3" data-filter="">
+            <img src="images/portfolio/1.jpg" alt="photo" />
+          </div>
+          <div class="port cat1 cat3">
+            <img src="images/portfolio/2.jpg" alt="photo" />
+          </div>
+          <div class="port cat1">
+            <img src="images/portfolio/3.jpg" alt="photo" />
+          </div>
+          <div class="port cat1 cat2">
+            <img src="images/portfolio/4.jpg" alt="photo" />
+          </div>
+          <div class="port cat1 cat2">
+            <img src="images/portfolio/5.jpg" alt="photo" />
+          </div>
+          <div class="port cat1 cat3">
+            <img src="images/portfolio/6.jpg" alt="photo" />
+          </div>
+
+          <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="container">
+        <div class="infobag">
+          <div class="icoinfo">
+            <i class="fa fa-users"></i>
+            <h3>200</h3>
+            <h5>Team members</h5>
+          </div>
+          <div class="icoinfo">
+            <i class="fa-regular fa-file"></i>
+            <h3>345</h3>
+            <h5>Complete Projects</h5>
+          </div>
+          <div class="icoinfo">
+            <i class="fa fa-cloud-download"></i>
+            <h3>1800</h3>
+            <h5>Files Downloaded</h5>
+          </div>
+          <div class="icoinfo">
+            <i class="fa fa-coffee"></i>
+            <h3>1200</h3>
+            <h5>Lines Of Code</h5>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonial">
+      <div class="container">
+        <h2>Client's Feedback</h2>
+        <div class="testbag">
+          <div class="card">
+            <div class="imag">
+              <img src="images/feedback.jpg" alt="profile" />
+            </div>
+            <div class="content">
+              <h3>Alex ander</h3>
+              <h4>
+                <a href="#">
+                  <i class="fa fa-map-marker"></i>
+                  United
+                </a>
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                laudantium dignissimos debitis optio! Exercitationem adipisicing
+                elit.
+              </p>
+              <div class="icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+          </div>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-regular fa-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div id="blog">
+      <div class="container">
+        <h2>Our Blog</h2>
+        <div class="blogbag">
+          <div class="blogpost">
+            <a href="blog-details.html">
+              <img src="images/blog/12.jpg" alt="blog post"
+            /></a>
+            <div class="post-content">
+              <h4>23 November, 2015</h4>
+              <h3>Web Design Blog Post</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                molestiae.
+              </p>
+              <a href="blog-details.html"
+                >READ MORE <i class="fa fa-long-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blogpost">
+            <iframe
+              allowfullscreen=""
+              allow="autoplay; encrypted-media"
+              src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"
+            ></iframe>
+            <div class="post-content">
+              <h4>20 April, 2018</h4>
+              <h3>Development Blog Post</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                molestiae.
+              </p>
+              <a href="blog-details.html"
+                >READ MORE <i class="fa fa-long-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blogpost">
+            <a href="blog-details.html">
+              <img src="images/blog/32.jpg" alt="blog post"
+            /></a>
+            <div class="post-content">
+              <h4>23 November, 2015</h4>
+              <h3>Web Design Blog Post</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                molestiae.
+              </p>
+              <a href="blog-details.html"
+                >READ MORE <i class="fa fa-long-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="inputbag">
+          <input type="text" placeholder="Name" name="name" />
+          <input type="email" placeholder="Email" name="email" />
+          <div class="subject">
+            <input type="text" name="subject" placeholder="subject" />
+          </div>
+          <div class="text">
+            <textarea
+              name="text-area"
+              cols="30"
+              rows="6"
+              placeholder=" Message for me"
+            ></textarea>
+            <br />
+            <button>SEND MESSAGE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <a href="#"> <i class="fa-brands fa-facebook-f"></i> </a>
+        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+        <a href="#"> <i class="fa-solid fa-g"></i> </a>
+        <a href="#"> <i class="fa-brands fa-github"></i> </a>
+        <p>Copy Right 2018 © By<a href="#">Theme-fair</a>All Rights Reserved</p>
+      </div>
+    </div>
+  </body>
+</html>
